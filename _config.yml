@@ -20,11 +20,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   and pursue a lifelong passion for computer science and programming. In this 
   website lie some of the many steps of this transition.
 
-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://JBarroca.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: josebarroca
 github_username:  JBarroca
+
+# Disqus
+disqus:
+  shortname: jbarroca-1
 
 # Build settings
 markdown: kramdown
