@@ -7,7 +7,9 @@ categories: Disqus
 
 The process of adding Disqus comments to a Jekyll-built static website is not that complicated, but most sources of information (including the instructions on the Disqus website itself) tend to omit some basic directions that more seasoned users may find too obvious to earn mention, but which are vital for newcomers to these technologies such as myself. [This blog post](https://desiredpersona.com/disqus-comments-jekyll/) deserves to be mentioned, because it was almost perfect in this regard.
 
-First, you need to go to [Disqus website](https://disqus.com/ "Disqus homepage") and create a free account (don't forget to open your email to verify your address). After creating an account, you can register your Jekyll website with Disqus by creating a Disqus shortname. You'll have to insert this shortname as a site variable in your Jekyll website, so copy it to your clipboard when you create it.
+So, how is it done?
+
+First, you need to go to [Disqus website](https://disqus.com/ "Disqus homepage") and create a free account (you'll be asked to verify your e-mail). After creating an account, you can register your Jekyll website with Disqus by creating a Disqus shortname. You'll have to insert this shortname as a site variable in your Jekyll website, so copy it to your clipboard when you create it.
 
 Open your Jekyll website's `_config.yml` file and create a site variable for the Disqus shortname you've just created:
 
@@ -16,7 +18,7 @@ disqus:
     shortname: your_site_shortname
 ```
 
-> HINT: If you forgot your Disqus shortname like I did, go to Disqus website, click on your profile icon and go to 'Admin'. On the top-left corner of your Admin screen, you'll see a drop-down list of your websites. Click on the webiste whose shorname you're looking for and then check the website's URL, which will be `https://YOUR-SHORTNAME.disqus.com/admin`.
+> HINT: If you've just forgotten your Disqus shortname (like I did), go to Disqus website, click on your profile icon and go to 'Admin'. On the top-left corner of your Admin screen, you'll see a drop-down list of your websites. Click on the webiste whose shorname you're looking for and then check the website's URL, which will be `https://YOUR-SHORTNAME.disqus.com/admin`.
 
 While you're looking at `_config.yml`, make sure that your site's URL variable is *not* an empty string. If you are implementing Disqus comments early on the development of your blog, you may have gotten this far without needing to edit this variable. Disqus comments, however, will require a global site URL (even if you haven't published it yet), so be sure to write something there.
 
@@ -24,7 +26,7 @@ While you're looking at `_config.yml`, make sure that your site's URL variable i
 URL: *something*
 ```
 
-After you've edited _config.yml you can now proceed to create the include file for Disqus comments (typically `_includes/disqus_comments.html`). The code you need to paste in this file (the so-called Disqus Universal Embed Code) is provided to you by the Disqus website during the setup process, but you can paste the code below which will work on your Jekyll website via [Liquid variables](https://jekyllrb.com/docs/liquid/):
+After you've edited `_config.yml` you can now proceed to create the include file for Disqus comments (typically `_includes/disqus_comments.html`). The code you need to paste in this file (the so-called Disqus Universal Embed Code) will be provided to you by the Disqus website during the setup process, but you can paste the code below which will work on your Jekyll website via [Liquid variables](https://jekyllrb.com/docs/liquid/):
 
 
 ```
@@ -59,4 +61,4 @@ Now we need to add this .html via `{% raw %}{% include %}{% endraw %}` to our po
 {% endif %}{% endraw %}
 ```
 
-And that's it! You can continue to add posts to your blog as usual and the Disqus comment section will appear at the bottom of each post. If you choose not to have comments on a specific post, just add `comments: false` in the front matter of that post's markdown file.
+And that's it! You can continue to add posts to your blog as usual and the Disqus comment section will appear at the bottom of each one. If you choose not to have comments on a specific post, just add `comments: false` in the front matter of that post's markdown file.

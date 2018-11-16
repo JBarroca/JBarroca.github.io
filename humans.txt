@@ -1,0 +1,10 @@
+/* TEAM */
+    Developer: José Barroca
+    Contact: jd222qf@student.lnu.se
+    Location: Mora, Dalarna, Sweden
+
+/* SITE */
+    Last update:2018/11/20
+    Language: English
+    Doctype:HTML5
+    IDE: Visual Studio Code
