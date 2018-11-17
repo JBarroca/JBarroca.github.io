@@ -1,0 +1,23 @@
+<meta property="og:site_name" content="{{ site.title }}">
+
+{% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+{% else %}
+    <meta property="og:title" content="{{ site.title }}">
+{% endif %}
+
+{% if page.title %}
+    <meta property="og:type" content="article">
+{% else %}
+    <meta property="og:type" content="website">
+{% endif %}
+
+{% if page.featured-image %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.featured-image }}">
+{% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/your-site-image.jpg">
+{% endif %}
+
+{% if page.url %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
