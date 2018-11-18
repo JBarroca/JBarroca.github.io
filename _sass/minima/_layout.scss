@@ -8,7 +8,6 @@
     min-height: $spacing-unit * 1.865; // Positioning context for the mobile navigation icon
     position: relative;
     background-color: $background-header-and-footer;
-    border: solid red 0.1em;
 }
 
 .site-logo {
@@ -16,35 +15,43 @@
     float: left;
 }
 
-.site-header-title {
-    position: absolute;
-    top: 25%;
-    left: 33%;
-    padding: 0;
-    margin: 0;
-    border: solid red 0.1em;
-    width: 450px;
-}
-
 .site-title {
     @include relative-font-size(1.625);
-    border: solid red .1em;
+    //border: solid red .1em;
     position: absolute;
-    top: 33%;
-    //FONT-FAMILY?
-    //letter-spacing: 5px;
-    color: black;
-    font-weight: 300;
+    top: 30%;
     line-height: $base-line-height * $base-font-size * 2.25;
     margin-left: $spacing-unit / 2;
     &,
-    &:visited {
-        color: $grey-color-dark;
+    &:visited,
+    &:hover {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 5px;
+        font-weight: 300;
+        font-size: 300%;
+    }
+    // using <span> to format first letter of each word in the title
+    span {
+        display: inline-block;
+        &::first-letter {
+            color: orange;
+            font-weight: 600;
+        }
+    }
+    @include media-query($on-palm) {
+        &,
+        &:visited,
+        &:hover {
+            letter-spacing: 2px;
+            font-weight: 300;
+            font-size: 250%;
+        }
     }
 }
 
 .site-nav {
-    border: solid red 0.1em;
+    //border: solid red 0.1em;
     text-align: right;
     margin-top: 50px;
     line-height: $base-line-height * $base-font-size * 2.25;
@@ -202,8 +209,9 @@
     font-size: $small-font-size;
     color: $grey-color;
     text-align: center;
-    &::before, &::after {
-      content: ' --- ';
+    &::before,
+    &::after {
+        content: ' --- ';
     }
 }
 
@@ -221,7 +229,6 @@
     float: right;
     margin: 0 0 $spacing-unit $spacing-unit;
 }
-
 
 /**
  * Posts
