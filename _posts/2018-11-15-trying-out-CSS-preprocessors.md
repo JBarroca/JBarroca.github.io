@@ -18,6 +18,7 @@ the use of partials makes it so much easier to grasp all the elements of what wo
 + removed the solid borders of the base theme
 + changed the header's color and typographic formatting
 + added logo image with usual link to homepage
++ used `@extends` to create a new header-specific wrapper class which inherited from the general wrapper class.
 
 #### main ####
 + removed padding between header, body and footer wrappers

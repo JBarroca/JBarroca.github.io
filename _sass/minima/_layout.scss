@@ -7,11 +7,23 @@
     //border-bottom: 1px solid $grey-color-light;
     min-height: $spacing-unit * 1.865; // Positioning context for the mobile navigation icon
     position: relative;
+    background-color: $background-header-and-footer;
+    border: solid red 0.1em;
 }
 
 .site-logo {
-    width: 125px;
+    width: 100px;
     float: left;
+}
+
+.site-header-title {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    padding: 0;
+    margin: 0;
+    border: solid red 0.1em;
+    width: 450px;
 }
 
 .site-title {
@@ -21,6 +33,7 @@
     top: 33%;
     //FONT-FAMILY?
     //letter-spacing: 5px;
+    color: black;
     font-weight: 300;
     line-height: $base-line-height * $base-font-size * 2.25;
     margin-left: $spacing-unit / 2;
@@ -32,7 +45,8 @@
 
 .site-nav {
     border: solid red 0.1em;
-    float: right;
+    text-align: right;
+    margin-top: 50px;
     line-height: $base-line-height * $base-font-size * 2.25;
     .nav-trigger {
         display: none;
@@ -41,7 +55,7 @@
         display: none;
     }
     .page-link {
-        color: $text-color;
+        color: white;
         line-height: $base-line-height; // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
@@ -99,13 +113,9 @@
  */
 
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     //padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    @include relative-font-size(1.125);
-    margin-bottom: $spacing-unit / 2;
+    background-color: $background-header-and-footer;
 }
 
 .contact-list,
@@ -191,6 +201,10 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    text-align: center;
+    &::before, &::after {
+      content: ' --- ';
+    }
 }
 
 .post-link {
@@ -214,13 +228,16 @@
  */
 
 .post-header {
-    margin-bottom: $spacing-unit;
+    border: solid red 0.1em;
+    margin-bottom: $spacing-unit * 1.5;
 }
 
 .post-title {
     @include relative-font-size(2.625);
     letter-spacing: -1px;
     line-height: 1;
+    text-align: center;
+    font-style: italic;
     @include media-query($on-laptop) {
         @include relative-font-size(2.25);
     }
