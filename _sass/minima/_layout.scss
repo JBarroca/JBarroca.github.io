@@ -3,19 +3,27 @@
  */
 
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    //border-top: 5px solid $grey-color-dark;
+    //border-bottom: 1px solid $grey-color-light;
     min-height: $spacing-unit * 1.865; // Positioning context for the mobile navigation icon
     position: relative;
 }
 
+.site-logo {
+    width: 125px;
+    float: left;
+}
+
 .site-title {
     @include relative-font-size(1.625);
+    border: solid red .1em;
+    position: absolute;
+    top: 33%;
+    //FONT-FAMILY?
+    //letter-spacing: 5px;
     font-weight: 300;
     line-height: $base-line-height * $base-font-size * 2.25;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    margin-left: $spacing-unit / 2;
     &,
     &:visited {
         color: $grey-color-dark;
@@ -23,6 +31,7 @@
 }
 
 .site-nav {
+    border: solid red 0.1em;
     float: right;
     line-height: $base-line-height * $base-font-size * 2.25;
     .nav-trigger {
@@ -91,7 +100,7 @@
 
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    //padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -199,13 +208,6 @@
     margin: 0 0 $spacing-unit $spacing-unit;
 }
 
-.language_header {
-    img {
-        float: right;
-        margin: 0;
-        padding: 2px 5px;
-    }
-}
 
 /**
  * Posts

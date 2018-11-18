@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up Open Graph in a Jekyll website"
-date:   2018-11-16 16:40:00 +0100
+date:   2018-11-17 13:40:00 +0100
 categories: Open Graph
 ---
 

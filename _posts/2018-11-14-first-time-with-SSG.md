@@ -6,7 +6,7 @@ categories: SSG
 ---
 This is my first time using a static site generator (SSG), Jekyll, so hooray! It's only my fourth ever website, so I can't really say this is disrupting that many routines (especially considering the first two of these websites were entirely done with Flash about 16 years ago).
 
-So far, I've been delving into [Jekyll's documentation](https://jekyllrb.com/docs/ "Jekyll's Documentation") in order to understand the fundamentals, such as the structure of gem-based themes, how to use [Liquid](https://shopify.github.io/liquid/ "Liquid templating language") to introduce variables, logic and modulatiry and the use of CSS preprocessors within jekyll-built websites.
+So far, I've been delving into [Jekyll's documentation](https://jekyllrb.com/docs/ "Jekyll's Documentation") in order to understand the fundamentals, such as the structure of gem-based themes, how to use [Liquid](https://shopify.github.io/liquid/ "Liquid templating language") to introduce variables, logic and modularity and the use of CSS preprocessors within jekyll-built websites.
 
 ### Why SSGs? ###
 
