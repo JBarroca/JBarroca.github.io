@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up Open Graph in a Jekyll website"
 date:   2018-11-17 13:40:00 +0100
-categories: Open Graph
+categories: Jekyll
 ---
 
 Open Graph is a technology which allows you to control which elements and information are shown when someone shares a link to your page. This is done by defining meta tags in the `head` element of your HTML page. 

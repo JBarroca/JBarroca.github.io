@@ -2,7 +2,7 @@
 layout: post
 title:  "humans.txt and robots.txt"
 date:   2018-11-16 16:34:00 +0100
-categories: misc
+categories: Miscellaneous
 ---
 
 ### humans.txt ###

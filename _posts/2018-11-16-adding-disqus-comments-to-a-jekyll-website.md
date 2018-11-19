@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding Disqus comments to a Jekyll website"
 date:   2018-11-16 16:35:00 +0100
-categories: Disqus
+categories: Jekyll
 ---
 
 The process of adding Disqus comments to a Jekyll-built static website is not that complicated, but most sources of information (including the instructions on the Disqus website itself) tend to omit some basic directions that more seasoned users may find too obvious to earn mention, but which are vital for newcomers to these technologies such as myself. [This blog post](https://desiredpersona.com/disqus-comments-jekyll/) deserves to be mentioned, because it was almost perfect in this regard.

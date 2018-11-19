@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "First time with Static Site Generators"
+title:  "Enter Static Site Generators!"
 date:   2018-11-14 21:02:00 +0100
-categories: SSG
+categories: Jekyll
 ---
 This is my first time using a static site generator (SSG), Jekyll, so hooray! It's only my fourth ever website, so I can't really say this is disrupting that many routines (especially considering the first two of these websites were entirely done with Flash about 16 years ago).
 
