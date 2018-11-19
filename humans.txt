@@ -3,6 +3,12 @@
     Contact: jd222qf@student.lnu.se
     Location: Mora, Dalarna, Sweden
 
+/* THANKS */
+    Logo design: Ricardo Esteves Corga, RIMA Studio
+    Contact: rimadesignstudio@gmail.com
+    Instagram: RIMAdesignstudio
+    Location: Portugal
+
 /* SITE */
     Last update:2018/11/20
     Language: English

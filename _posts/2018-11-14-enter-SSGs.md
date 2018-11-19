@@ -4,9 +4,7 @@ title:  "Enter Static Site Generators!"
 date:   2018-11-14 21:02:00 +0100
 categories: Jekyll
 ---
-This is my first time using a static site generator (SSG), Jekyll, so hooray! It's only my fourth ever website, so I can't really say this is disrupting that many routines (especially considering the first two of these websites were entirely done with Flash about 16 years ago).
-
-So far, I've been delving into [Jekyll's documentation](https://jekyllrb.com/docs/ "Jekyll's Documentation") in order to understand the fundamentals, such as the structure of gem-based themes, how to use [Liquid](https://shopify.github.io/liquid/ "Liquid templating language") to introduce variables, logic and modularity and the use of CSS preprocessors within jekyll-built websites.
+This is my first time using a static site generator (SSG), [Jekyll](https://jekyllrb.com/). Hooray! It's only my fourth ever website, so I can't really say this is disrupting that many routines (especially considering the first two of these websites were entirely done with Flash about 16 years ago).
 
 ### Why SSGs? ###
 
@@ -27,4 +25,10 @@ SSGs are most useful for building sites more focused on delivering content than 
 
 ### My experience using an SSG ###
 
-The first contact with an SSG was quite daunting because of everything I had to set up (even with the use of gem-based themes) and the time and reading it took me to understand the relationship between the various folders and the resulting static content after the site is built. However, after the initial contact, some advantages of using SSGs became immediately apparent. The possiblity to reuse and adapt html code via layouts and `includes` is a real productivity boost, especially when implementing changes to the markup after several pages have already been created.
+The first contact with this project was quite daunting. Docker, Jekyll, ruby gem-based themes, static websites, CSS preprocessors, Sass... all these different technologies to graps right from the beginning! It's no wonder the saying "Jekyll is for developers", because it takes a lot of effort just to be able to produce *something*.
+
+I started by delving into [Jekyll's documentation](https://jekyllrb.com/docs/ "Jekyll's Documentation") in order to understand the fundamentals, such as the structure of gem-based themes, how to use [Liquid](https://shopify.github.io/liquid/ "Liquid templating language") to introduce variables, logic and modularity and the use of CSS preprocessors within jekyll-built websites. It took me a - relatively - long time just to understand the relationship between the various folders, layouts, assets, includes, etc. and the resulting static content after the website is built.
+
+After the initial reading and the experimentation that followed (temptatively changing a front matter here, an include there and an html layout there), something clicked and I realised why static site generators can be a useful tool. The most striking improvement compared to my other recent projects with "traditional" HTML+CSS files was how much more modular all becomes by using layouts and includes. Goodbye, copy+pasting the same HTML elements all over different files and hello, immediate site-wide editing by changing just a single markup file. Then, the use of Liquid's if statements and for loops to build lists and navigation menus is really flexible. And finally, the possibility of adding pages and blog entries by simply creating new markdown text files is a breeze.
+
+Since I'm only in the beginning of this journey, only time will tell how much I'll continue to use static site generators and this particular website here. Regardless, delving into all these different technologies was a very positive learning experience.

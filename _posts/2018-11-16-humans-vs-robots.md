@@ -9,7 +9,7 @@ categories: Miscellaneous
 
 Humans.txt is a simple `.txt` file containing relevant information about every person who has contributed to a website. The initiative comes from [humanstxt.org](http://humanstxt.org) and its goal is to define `humans.txt` as the standart way to present a website's authorship.
 
-In my case, since I am developing this website as an individual project, I have no one else's information to present but my own. Therefore, in [this site's humans.txt file](/../../humans.txt), only my information is presented.
+In my case, since I am developing this website as an individual project, I have no one else's information to present but my own on the 'SITE' section. The site's logo was a portrait offered to me by a talented friend, whose information I have therefore added to the humans.txt file in the 'THANKS' section. Check out [this site's humans.txt file](/../../humans.txt).
 
 ### robots.txt ###
 
